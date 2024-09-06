@@ -1,3 +1,7 @@
+//
+// DO NOT alter this file
+// 
+
 #define FUNCTION_NULL -1 // do nothing
 
 #define FUNCTION_0 0 // lights
@@ -57,3 +61,11 @@
 
 #define MAX_THROTTLE_INCREASE 56
 #define MAX_THROTTLE_DECREASE 57
+
+#define CUSTOM_1 121
+#define CUSTOM_2 122
+#define CUSTOM_3 123
+#define CUSTOM_4 124
+#define CUSTOM_5 125
+#define CUSTOM_6 126
+#define CUSTOM_7 127

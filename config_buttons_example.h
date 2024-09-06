@@ -34,6 +34,10 @@
 #define CHOSEN_KEYPAD_7_FUNCTION     DIRECTION_REVERSE
 #define CHOSEN_KEYPAD_8_FUNCTION     E_STOP
 #define CHOSEN_KEYPAD_9_FUNCTION     DIRECTION_FORWARD
+// #define CHOSEN_KEYPAD_A_FUNCTION     CUSTOM_1
+// #define CHOSEN_KEYPAD_B_FUNCTION     CUSTOM_2
+// #define CHOSEN_KEYPAD_C_FUNCTION     CUSTOM_3
+// #define CHOSEN_KEYPAD_D_FUNCTION     CUSTOM_4
 
 // text that will appear when you press #
 // if you rearrange the items above, modify this text to suit    * and # cannot be remapped here
@@ -103,6 +107,19 @@
 #define CHOSEN_ADDITIONAL_BUTTON_4_FUNCTION     FUNCTION_NULL   // GPIO 27
 #define CHOSEN_ADDITIONAL_BUTTON_5_FUNCTION     FUNCTION_NULL   // GPIO 32
 #define CHOSEN_ADDITIONAL_BUTTON_6_FUNCTION     FUNCTION_NULL   // GPIO 33
+
+// *******************************************************************************************************************
+// additional / optional commands
+// these can be any legitimate WiThrottle protocol command encosed in quotes or double quotes
+// comands MOST not include the opening and closing angle brackets < or >
+
+// #define CUSTOM_COMMAND_1 "s"
+// #define CUSTOM_COMMAND_2 "/START 300"
+// #define CUSTOM_COMMAND_3 "/START 500"
+// #define CUSTOM_COMMAND_4 ""
+// #define CUSTOM_COMMAND_5 ""
+// #define CUSTOM_COMMAND_6 ""
+// #define CUSTOM_COMMAND_7 ""
 
 // *******************************************************************************************************************
 // additional / optional buttons
@@ -185,6 +202,7 @@
 // uncomment and change as needed
 // defaults are for the Small 4x3 keypad
 
+<<<<<<< HEAD
 // 4x4 keypad
 // #define ROW_NUM     4
 // #define COLUMN_NUM  4
@@ -192,6 +210,8 @@
 // #define KEYPAD_ROW_PINS    {19, 18, 17, 16}
 // #define KEYPAD_COLUMN_PINS {4, 0, 2, 33}
 
+=======
+>>>>>>> cbee064adfcb7fe9ca50bc99baeb161be4efad90
 // 4x3 keypad - default
 // #define ROW_NUM     4
 // #define COLUMN_NUM  3
@@ -199,8 +219,14 @@
 // #define KEYPAD_ROW_PINS    {19, 18, 17, 16}
 // #define KEYPAD_COLUMN_PINS { 4, 0, 2}
 
-// in miliseconds
+// 4x4 keypad
+// #define ROW_NUM     4
+// #define COLUMN_NUM  4
+// #define KEYPAD_KEYS {'1', '2', '3', 'A'},  {'4', '5', '6', 'B'},  {'7', '8', '9', 'C'},  {'*', '0', '#', 'D'}
+// #define KEYPAD_ROW_PINS    {19, 18, 17, 16}
+// #define KEYPAD_COLUMN_PINS {4, 0, 2, 33}
 
+// in miliseconds
 // #define KEYPAD_DEBOUNCE_TIME 10
 // #define KEYPAD_HOLD_TIME 200
 
